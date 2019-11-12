@@ -8,26 +8,34 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
-  background-color: #f2f2f2;
+  margin: 1em;
+  background-color: #f2f2f2
 }
 
 h2 {
   font-size: 2rem;
   text-align: center;
   font-family: "Open Sans", bold;
+  margin: 1.5rem;
 }
 
 img {
-  width: 100px;
+  width: 100%;
   display: block;
-  margin: auto;
-  margin-top: 1em;
+  margin: 1em;
+}
+
+.all img {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 100px;
 }
 
 section {
   display: flex;
-  margin: 1rem auto 1.5rem;
+  margin: 0rem auto 1.5rem;
 }
 
 p {
@@ -36,6 +44,7 @@ p {
 
 em {
   padding: 0em .75rem;
+  font-size: .875rem;
 }
 
 section div {
@@ -52,6 +61,11 @@ section p {
 
 .quest {
   background-color: #e2e2e2;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  margin: 0;
+  padding: 0;
+  width: 25%
 }
 
 .knights {
@@ -60,10 +74,13 @@ section p {
 
 .dragon {
   background-color: #aaa;
+  border-left: 1px solid #333;
 }
 
 .light {
   background-color: #999;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 
 div h3 {
