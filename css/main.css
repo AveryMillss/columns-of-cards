@@ -1,25 +1,27 @@
 html {
   box-sizing: border-box;
-  background-color: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f2f2f2;
+}
+
 h2 {
   font-size: 2rem;
   text-align: center;
-  font-family: 'Open Sans', bold;
-  font-style: bold;
+  font-family: "Open Sans", bold;
 }
 
 img {
   width: 100px;
   display: block;
   margin: auto;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 
 section {
@@ -28,11 +30,11 @@ section {
 }
 
 p {
-  padding: .25em .75rem;
+  padding: 0em .75rem 1em;
 }
 
-p:first-child {
-  font-family: 'Open Sans', italic;
+em {
+  padding: 0em .75rem;
 }
 
 section div {
@@ -45,10 +47,6 @@ section div {
 section p {
   flex-grow: 1;
   margin: 0;
-}
-
-section div:first-of-type {
-
 }
 
 .quest {
@@ -69,9 +67,11 @@ section div:first-of-type {
 
 div h3 {
   font-size: 1rem;
-  font-family: 'Open Sans', bold;
-  padding: 0em .75em;
-  margin: .5rem 0;
+  font-family: "Open Sans", bold;
+  padding: .25rem;
+  padding: 0 .75rem;
+  margin: 0em;
+  margin-top: 1em;
 }
 
 .btn {
@@ -80,7 +80,8 @@ div h3 {
   color: #f2f2f2;
   background-color: #333;
   border: solid 3px #333;
-  border-radius: 5px
+  border-radius: 5px;
+  padding: .5em;
 }
 
 .btn-small {
@@ -88,6 +89,6 @@ div h3 {
   margin: .5rem;
 }
 
-p {
-  font-size: 1rem;
+.btn:hover {
+  background-color: black;
 }
