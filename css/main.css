@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Open Sans', bold;
+  font-style: bold;
+}
+
+img {
+  width: 100px;
+  display: block;
+  margin: auto;
+  margin-top: .5em;
+}
+
+section {
+  display: flex;
+  margin: 1em;
+}
+
+p {
+  padding: .25em .75rem;
+}
+
+p:first-child {
+  font-family: 'Open Sans', italic;
+}
+
+section div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section p {
+  flex-grow: 1;
+  margin: 0;
+}
+
+section div:first-of-type {
+
+}
+
+.quest {
+  background-color: #e2e2e2;
+}
+
+.knights {
+  background-color: #ccc;
+}
+
+.dragon {
+  background-color: #aaa;
+}
+
+.light {
+  background-color: #999;
+}
+
+div h3 {
+  font-size: 1rem;
+  font-family: 'Open Sans', bold;
+  padding: 0em .75em;
+  margin: .5rem 0;
+}
+
+.btn {
+  font-size: .875rem;
+  text-decoration: none;
+  color: #f2f2f2;
+  background-color: #333;
+  border: solid 3px #333;
+  border-radius: 5px
+}
+
+.btn-small {
+  display: block;
+  margin: .5rem;
+}
+
+p {
+  font-size: 1rem;
+}
