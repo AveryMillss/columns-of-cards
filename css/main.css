@@ -1,12 +1,13 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
 body {
   background-color: #f2f2f2;
 }
@@ -26,7 +27,7 @@ img {
 
 section {
   display: flex;
-  margin: 1em;
+  margin: 1rem auto 1.5rem;
 }
 
 p {
